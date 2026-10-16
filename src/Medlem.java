@@ -1,5 +1,4 @@
 public class Medlem {
-
     private String namn;
     private int medlemsnummer;
 
@@ -10,7 +9,9 @@ public class Medlem {
 
     public String getNamn() {
         return namn;
+    }
 
-
+    public int getMedlemsnummer() {
+        return medlemsnummer;
     }
 }
